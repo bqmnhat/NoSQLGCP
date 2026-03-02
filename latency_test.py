@@ -2,14 +2,14 @@ import requests
 import time
 import uuid
 
-US_IP = "http://34.171.231.62:8080"
+US_IP = "http://35.188.162.15:8080"
 EU_IP = "http://34.52.223.191:8080"
 
 def measure_latency(name, url):
     print(f"--- Measuring Latency for {name} ---")
     reg_times = []
     list_times = []
-    for _ in range(10):
+    for i in range(10):
         # Measure /register
         start = time.time()
         requests.post(f"{url}/register", json={"username": f"user_{uuid.uuid4().hex[:6]}"})
@@ -18,7 +18,9 @@ def measure_latency(name, url):
         # Measure /list
         start = time.time()
         requests.get(f"{url}/list")
-        list_times.append((time.time() - start) * 1000)
+        latency_time = (time.time() - start) * 1000
+        print(f"Latency time for request {i}: {latency_time}\n")
+        list_times.append(latency_time)
     
     print(f"  Avg Register: {sum(reg_times)/10:.2f}ms")
     print(f"  Avg List: {sum(list_times)/10:.2f}ms\n")
@@ -27,6 +29,7 @@ def run_consistency_test(src, dest):
     print(f"--- Testing Eventual Consistency ({src} -> {dest}) ---")
     misses = 0
     for i in range(100):
+        print(f"Sending request {i} to {src}\n")
         uname = f"SyncTest_{uuid.uuid4().hex[:8]}"
         # Register in Source
         requests.post(f"{src}/register", json={"username": uname})
@@ -34,6 +37,9 @@ def run_consistency_test(src, dest):
         res = requests.get(f"{dest}/list").json()
         if uname not in res.get("users", []):
             misses += 1
+            print(f"Request {i}: miss\n")
+        else:
+            print(f"Request {i}: success\n")
     print(f"Consistency Results: {misses} misses out of 100 attempts.")
 
 if __name__ == "__main__":
