@@ -1,0 +1,20 @@
+First, regarding the server Nodejs setup, I accidently named my database to "database" instead of keeping the name "(default)" so I have to specify the database name when creating a Datastore (see line 6 in server.js script). Other setup stays the same as the example code.
+
+Regarding the script used to measure Latency and Consistency (latency_test.py), I approach the test very simple:
+1. Latency: Since I know we have to test latency on both the servers (US and EU), I implemented a function for reusability:
+    measure_latency(name, ip) where:
+        - name: US or EU (or any other name we want to call our server). This is solely for the purpose of logging
+        - ip: This is the external IP address of the server we want to test at the time of calling the measure_latency function
+        - Idea: We first clear the database. The idea is that for '/register' endpoint, we send a POST request to register on the server and remember the clock time at the time of request.
+        We then send a GET request to '/list' endpoint and catch the response returned from the server. Afterwards, to achieve the latency we calculate the difference between the time at response and the time at request that we remembered previously.
+        The time is also converted to milisecond for reporting purpose. Each of this POST and GET was sent 10 times.
+
+2. Consistency: Similar to Latency, I wanted to test the Latency from both directions (US to EU and EU to US). Therefore, I also implemented a function for reusability:
+    run_consistency_test(src, dest) where:
+        - src: Is the server IP address where we send POST request to the '/register' endpoint
+        - dest: We first clear the database. Is the server IP address where we send a GET request to the '/list' endpoint to check if we missed the registration on src
+        - Idea: We first clear the database. On src server, we will send a POST request to '/register' endpoint and record a unique username that we registered.
+        Afterwards, on the dest server, we will send a GET request to the '/list' endpoint to and check if the username we registered on the src server is listed in the response.
+        If it is listed, this means that the src and dest servers are consistent to each other in terms of database.
+
+The results of these tests are stored and analyze in "Analysis.txt".

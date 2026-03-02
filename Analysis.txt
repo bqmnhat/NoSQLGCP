@@ -1,0 +1,18 @@
+Latency for US: 
+- Avg Register: 111.66ms
+- Avg List: 103.85ms
+
+Latency for EU:
+- Avg Register: 359.52ms
+- Avg List: 436.11ms
+
+Eventual Consistency Experiment (US to EU): 0 misses out of 100 attempts.
+
+Eventual Consistency Experiment (EU to US): 0 misses out of 100 attempts.
+
+For detail logging, please see "TestLog.txt".
+
+Analysis Paragraphs:
+The logged data shows a significant difference in latency between the 2 regions. The US instance (Iowa) averaged approximately 112ms for registraions, while that of the EU instance (Belgium) was approximately 3.5 times slower at 360 ms. This disparity is due to the geographic distance of data transmission. Since I am accessing these servers from my local machine from the US, the network packets sent to Iowa stay within the domestic backbone. On the other hand, the requests to Europe instance must travel across the Atlantic Ocean and back, introducing higher propagation delay. Moreover, since the Firestore database is located in the US (us-central1), the Europe instance must also come back to the US database before coming back to respond my request.
+
+In the consistency experiment, both the US-to-EU and EU-to-US tests resulted in 0 miss out of 100 attempts. This suggests that while GCP Firestore is an eventually consistent system, the replication lag is low. This happens even when my script immediately queried the dest server after writing to the src server. This shows me that the eventual consistency of a global NoSQL database is instantaneous, providing consistent data access across different geographic locations.

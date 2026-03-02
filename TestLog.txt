@@ -1,0 +1,852 @@
+--- Measuring Latency for US ---
+Latency time for request 0: 112.33019828796387
+
+Latency time for request 1: 103.68037223815918
+
+Latency time for request 2: 114.98165130615234
+
+Latency time for request 3: 106.50086402893066
+
+Latency time for request 4: 104.58946228027344
+
+Latency time for request 5: 95.28660774230957
+
+Latency time for request 6: 112.54715919494629
+
+Latency time for request 7: 100.00848770141602
+
+Latency time for request 8: 102.99134254455566
+
+Latency time for request 9: 85.54625511169434
+
+  Avg Register: 111.66ms
+  Avg List: 103.85ms
+
+--- Measuring Latency for EU ---
+Latency time for request 0: 516.6919231414795
+
+Latency time for request 1: 523.3323574066162
+
+Latency time for request 2: 514.3134593963623
+
+Latency time for request 3: 526.6385078430176
+
+Latency time for request 4: 547.4374294281006
+
+Latency time for request 5: 345.91031074523926
+
+Latency time for request 6: 334.5332145690918
+
+Latency time for request 7: 353.84559631347656
+
+Latency time for request 8: 347.29576110839844
+
+Latency time for request 9: 351.1171340942383
+
+  Avg Register: 359.52ms
+  Avg List: 436.11ms
+
+--- Testing Eventual Consistency (http://35.188.162.15:8080 -> http://34.52.223.191:8080) ---
+Sending request 0 to http://35.188.162.15:8080
+
+Request 0: success
+
+Sending request 1 to http://35.188.162.15:8080
+
+Request 1: success
+
+Sending request 2 to http://35.188.162.15:8080
+
+Request 2: success
+
+Sending request 3 to http://35.188.162.15:8080
+
+Request 3: success
+
+Sending request 4 to http://35.188.162.15:8080
+
+Request 4: success
+
+Sending request 5 to http://35.188.162.15:8080
+
+Request 5: success
+
+Sending request 6 to http://35.188.162.15:8080
+
+Request 6: success
+
+Sending request 7 to http://35.188.162.15:8080
+
+Request 7: success
+
+Sending request 8 to http://35.188.162.15:8080
+
+Request 8: success
+
+Sending request 9 to http://35.188.162.15:8080
+
+Request 9: success
+
+Sending request 10 to http://35.188.162.15:8080
+
+Request 10: success
+
+Sending request 11 to http://35.188.162.15:8080
+
+Request 11: success
+
+Sending request 12 to http://35.188.162.15:8080
+
+Request 12: success
+
+Sending request 13 to http://35.188.162.15:8080
+
+Request 13: success
+
+Sending request 14 to http://35.188.162.15:8080
+
+Request 14: success
+
+Sending request 15 to http://35.188.162.15:8080
+
+Request 15: success
+
+Sending request 16 to http://35.188.162.15:8080
+
+Request 16: success
+
+Sending request 17 to http://35.188.162.15:8080
+
+Request 17: success
+
+Sending request 18 to http://35.188.162.15:8080
+
+Request 18: success
+
+Sending request 19 to http://35.188.162.15:8080
+
+Request 19: success
+
+Sending request 20 to http://35.188.162.15:8080
+
+Request 20: success
+
+Sending request 21 to http://35.188.162.15:8080
+
+Request 21: success
+
+Sending request 22 to http://35.188.162.15:8080
+
+Request 22: success
+
+Sending request 23 to http://35.188.162.15:8080
+
+Request 23: success
+
+Sending request 24 to http://35.188.162.15:8080
+
+Request 24: success
+
+Sending request 25 to http://35.188.162.15:8080
+
+Request 25: success
+
+Sending request 26 to http://35.188.162.15:8080
+
+Request 26: success
+
+Sending request 27 to http://35.188.162.15:8080
+
+Request 27: success
+
+Sending request 28 to http://35.188.162.15:8080
+
+Request 28: success
+
+Sending request 29 to http://35.188.162.15:8080
+
+Request 29: success
+
+Sending request 30 to http://35.188.162.15:8080
+
+Request 30: success
+
+Sending request 31 to http://35.188.162.15:8080
+
+Request 31: success
+
+Sending request 32 to http://35.188.162.15:8080
+
+Request 32: success
+
+Sending request 33 to http://35.188.162.15:8080
+
+Request 33: success
+
+Sending request 34 to http://35.188.162.15:8080
+
+Request 34: success
+
+Sending request 35 to http://35.188.162.15:8080
+
+Request 35: success
+
+Sending request 36 to http://35.188.162.15:8080
+
+Request 36: success
+
+Sending request 37 to http://35.188.162.15:8080
+
+Request 37: success
+
+Sending request 38 to http://35.188.162.15:8080
+
+Request 38: success
+
+Sending request 39 to http://35.188.162.15:8080
+
+Request 39: success
+
+Sending request 40 to http://35.188.162.15:8080
+
+Request 40: success
+
+Sending request 41 to http://35.188.162.15:8080
+
+Request 41: success
+
+Sending request 42 to http://35.188.162.15:8080
+
+Request 42: success
+
+Sending request 43 to http://35.188.162.15:8080
+
+Request 43: success
+
+Sending request 44 to http://35.188.162.15:8080
+
+Request 44: success
+
+Sending request 45 to http://35.188.162.15:8080
+
+Request 45: success
+
+Sending request 46 to http://35.188.162.15:8080
+
+Request 46: success
+
+Sending request 47 to http://35.188.162.15:8080
+
+Request 47: success
+
+Sending request 48 to http://35.188.162.15:8080
+
+Request 48: success
+
+Sending request 49 to http://35.188.162.15:8080
+
+Request 49: success
+
+Sending request 50 to http://35.188.162.15:8080
+
+Request 50: success
+
+Sending request 51 to http://35.188.162.15:8080
+
+Request 51: success
+
+Sending request 52 to http://35.188.162.15:8080
+
+Request 52: success
+
+Sending request 53 to http://35.188.162.15:8080
+
+Request 53: success
+
+Sending request 54 to http://35.188.162.15:8080
+
+Request 54: success
+
+Sending request 55 to http://35.188.162.15:8080
+
+Request 55: success
+
+Sending request 56 to http://35.188.162.15:8080
+
+Request 56: success
+
+Sending request 57 to http://35.188.162.15:8080
+
+Request 57: success
+
+Sending request 58 to http://35.188.162.15:8080
+
+Request 58: success
+
+Sending request 59 to http://35.188.162.15:8080
+
+Request 59: success
+
+Sending request 60 to http://35.188.162.15:8080
+
+Request 60: success
+
+Sending request 61 to http://35.188.162.15:8080
+
+Request 61: success
+
+Sending request 62 to http://35.188.162.15:8080
+
+Request 62: success
+
+Sending request 63 to http://35.188.162.15:8080
+
+Request 63: success
+
+Sending request 64 to http://35.188.162.15:8080
+
+Request 64: success
+
+Sending request 65 to http://35.188.162.15:8080
+
+Request 65: success
+
+Sending request 66 to http://35.188.162.15:8080
+
+Request 66: success
+
+Sending request 67 to http://35.188.162.15:8080
+
+Request 67: success
+
+Sending request 68 to http://35.188.162.15:8080
+
+Request 68: success
+
+Sending request 69 to http://35.188.162.15:8080
+
+Request 69: success
+
+Sending request 70 to http://35.188.162.15:8080
+
+Request 70: success
+
+Sending request 71 to http://35.188.162.15:8080
+
+Request 71: success
+
+Sending request 72 to http://35.188.162.15:8080
+
+Request 72: success
+
+Sending request 73 to http://35.188.162.15:8080
+
+Request 73: success
+
+Sending request 74 to http://35.188.162.15:8080
+
+Request 74: success
+
+Sending request 75 to http://35.188.162.15:8080
+
+Request 75: success
+
+Sending request 76 to http://35.188.162.15:8080
+
+Request 76: success
+
+Sending request 77 to http://35.188.162.15:8080
+
+Request 77: success
+
+Sending request 78 to http://35.188.162.15:8080
+
+Request 78: success
+
+Sending request 79 to http://35.188.162.15:8080
+
+Request 79: success
+
+Sending request 80 to http://35.188.162.15:8080
+
+Request 80: success
+
+Sending request 81 to http://35.188.162.15:8080
+
+Request 81: success
+
+Sending request 82 to http://35.188.162.15:8080
+
+Request 82: success
+
+Sending request 83 to http://35.188.162.15:8080
+
+Request 83: success
+
+Sending request 84 to http://35.188.162.15:8080
+
+Request 84: success
+
+Sending request 85 to http://35.188.162.15:8080
+
+Request 85: success
+
+Sending request 86 to http://35.188.162.15:8080
+
+Request 86: success
+
+Sending request 87 to http://35.188.162.15:8080
+
+Request 87: success
+
+Sending request 88 to http://35.188.162.15:8080
+
+Request 88: success
+
+Sending request 89 to http://35.188.162.15:8080
+
+Request 89: success
+
+Sending request 90 to http://35.188.162.15:8080
+
+Request 90: success
+
+Sending request 91 to http://35.188.162.15:8080
+
+Request 91: success
+
+Sending request 92 to http://35.188.162.15:8080
+
+Request 92: success
+
+Sending request 93 to http://35.188.162.15:8080
+
+Request 93: success
+
+Sending request 94 to http://35.188.162.15:8080
+
+Request 94: success
+
+Sending request 95 to http://35.188.162.15:8080
+
+Request 95: success
+
+Sending request 96 to http://35.188.162.15:8080
+
+Request 96: success
+
+Sending request 97 to http://35.188.162.15:8080
+
+Request 97: success
+
+Sending request 98 to http://35.188.162.15:8080
+
+Request 98: success
+
+Sending request 99 to http://35.188.162.15:8080
+
+Request 99: success
+
+Consistency Results: 0 misses out of 100 attempts.
+--- Testing Eventual Consistency (http://34.52.223.191:8080 -> http://35.188.162.15:8080) ---
+Sending request 0 to http://34.52.223.191:8080
+
+Request 0: success
+
+Sending request 1 to http://34.52.223.191:8080
+
+Request 1: success
+
+Sending request 2 to http://34.52.223.191:8080
+
+Request 2: success
+
+Sending request 3 to http://34.52.223.191:8080
+
+Request 3: success
+
+Sending request 4 to http://34.52.223.191:8080
+
+Request 4: success
+
+Sending request 5 to http://34.52.223.191:8080
+
+Request 5: success
+
+Sending request 6 to http://34.52.223.191:8080
+
+Request 6: success
+
+Sending request 7 to http://34.52.223.191:8080
+
+Request 7: success
+
+Sending request 8 to http://34.52.223.191:8080
+
+Request 8: success
+
+Sending request 9 to http://34.52.223.191:8080
+
+Request 9: success
+
+Sending request 10 to http://34.52.223.191:8080
+
+Request 10: success
+
+Sending request 11 to http://34.52.223.191:8080
+
+Request 11: success
+
+Sending request 12 to http://34.52.223.191:8080
+
+Request 12: success
+
+Sending request 13 to http://34.52.223.191:8080
+
+Request 13: success
+
+Sending request 14 to http://34.52.223.191:8080
+
+Request 14: success
+
+Sending request 15 to http://34.52.223.191:8080
+
+Request 15: success
+
+Sending request 16 to http://34.52.223.191:8080
+
+Request 16: success
+
+Sending request 17 to http://34.52.223.191:8080
+
+Request 17: success
+
+Sending request 18 to http://34.52.223.191:8080
+
+Request 18: success
+
+Sending request 19 to http://34.52.223.191:8080
+
+Request 19: success
+
+Sending request 20 to http://34.52.223.191:8080
+
+Request 20: success
+
+Sending request 21 to http://34.52.223.191:8080
+
+Request 21: success
+
+Sending request 22 to http://34.52.223.191:8080
+
+Request 22: success
+
+Sending request 23 to http://34.52.223.191:8080
+
+Request 23: success
+
+Sending request 24 to http://34.52.223.191:8080
+
+Request 24: success
+
+Sending request 25 to http://34.52.223.191:8080
+
+Request 25: success
+
+Sending request 26 to http://34.52.223.191:8080
+
+Request 26: success
+
+Sending request 27 to http://34.52.223.191:8080
+
+Request 27: success
+
+Sending request 28 to http://34.52.223.191:8080
+
+Request 28: success
+
+Sending request 29 to http://34.52.223.191:8080
+
+Request 29: success
+
+Sending request 30 to http://34.52.223.191:8080
+
+Request 30: success
+
+Sending request 31 to http://34.52.223.191:8080
+
+Request 31: success
+
+Sending request 32 to http://34.52.223.191:8080
+
+Request 32: success
+
+Sending request 33 to http://34.52.223.191:8080
+
+Request 33: success
+
+Sending request 34 to http://34.52.223.191:8080
+
+Request 34: success
+
+Sending request 35 to http://34.52.223.191:8080
+
+Request 35: success
+
+Sending request 36 to http://34.52.223.191:8080
+
+Request 36: success
+
+Sending request 37 to http://34.52.223.191:8080
+
+Request 37: success
+
+Sending request 38 to http://34.52.223.191:8080
+
+Request 38: success
+
+Sending request 39 to http://34.52.223.191:8080
+
+Request 39: success
+
+Sending request 40 to http://34.52.223.191:8080
+
+Request 40: success
+
+Sending request 41 to http://34.52.223.191:8080
+
+Request 41: success
+
+Sending request 42 to http://34.52.223.191:8080
+
+Request 42: success
+
+Sending request 43 to http://34.52.223.191:8080
+
+Request 43: success
+
+Sending request 44 to http://34.52.223.191:8080
+
+Request 44: success
+
+Sending request 45 to http://34.52.223.191:8080
+
+Request 45: success
+
+Sending request 46 to http://34.52.223.191:8080
+
+Request 46: success
+
+Sending request 47 to http://34.52.223.191:8080
+
+Request 47: success
+
+Sending request 48 to http://34.52.223.191:8080
+
+Request 48: success
+
+Sending request 49 to http://34.52.223.191:8080
+
+Request 49: success
+
+Sending request 50 to http://34.52.223.191:8080
+
+Request 50: success
+
+Sending request 51 to http://34.52.223.191:8080
+
+Request 51: success
+
+Sending request 52 to http://34.52.223.191:8080
+
+Request 52: success
+
+Sending request 53 to http://34.52.223.191:8080
+
+Request 53: success
+
+Sending request 54 to http://34.52.223.191:8080
+
+Request 54: success
+
+Sending request 55 to http://34.52.223.191:8080
+
+Request 55: success
+
+Sending request 56 to http://34.52.223.191:8080
+
+Request 56: success
+
+Sending request 57 to http://34.52.223.191:8080
+
+Request 57: success
+
+Sending request 58 to http://34.52.223.191:8080
+
+Request 58: success
+
+Sending request 59 to http://34.52.223.191:8080
+
+Request 59: success
+
+Sending request 60 to http://34.52.223.191:8080
+
+Request 60: success
+
+Sending request 61 to http://34.52.223.191:8080
+
+Request 61: success
+
+Sending request 62 to http://34.52.223.191:8080
+
+Request 62: success
+
+Sending request 63 to http://34.52.223.191:8080
+
+Request 63: success
+
+Sending request 64 to http://34.52.223.191:8080
+
+Request 64: success
+
+Sending request 65 to http://34.52.223.191:8080
+
+Request 65: success
+
+Sending request 66 to http://34.52.223.191:8080
+
+Request 66: success
+
+Sending request 67 to http://34.52.223.191:8080
+
+Request 67: success
+
+Sending request 68 to http://34.52.223.191:8080
+
+Request 68: success
+
+Sending request 69 to http://34.52.223.191:8080
+
+Request 69: success
+
+Sending request 70 to http://34.52.223.191:8080
+
+Request 70: success
+
+Sending request 71 to http://34.52.223.191:8080
+
+Request 71: success
+
+Sending request 72 to http://34.52.223.191:8080
+
+Request 72: success
+
+Sending request 73 to http://34.52.223.191:8080
+
+Request 73: success
+
+Sending request 74 to http://34.52.223.191:8080
+
+Request 74: success
+
+Sending request 75 to http://34.52.223.191:8080
+
+Request 75: success
+
+Sending request 76 to http://34.52.223.191:8080
+
+Request 76: success
+
+Sending request 77 to http://34.52.223.191:8080
+
+Request 77: success
+
+Sending request 78 to http://34.52.223.191:8080
+
+Request 78: success
+
+Sending request 79 to http://34.52.223.191:8080
+
+Request 79: success
+
+Sending request 80 to http://34.52.223.191:8080
+
+Request 80: success
+
+Sending request 81 to http://34.52.223.191:8080
+
+Request 81: success
+
+Sending request 82 to http://34.52.223.191:8080
+
+Request 82: success
+
+Sending request 83 to http://34.52.223.191:8080
+
+Request 83: success
+
+Sending request 84 to http://34.52.223.191:8080
+
+Request 84: success
+
+Sending request 85 to http://34.52.223.191:8080
+
+Request 85: success
+
+Sending request 86 to http://34.52.223.191:8080
+
+Request 86: success
+
+Sending request 87 to http://34.52.223.191:8080
+
+Request 87: success
+
+Sending request 88 to http://34.52.223.191:8080
+
+Request 88: success
+
+Sending request 89 to http://34.52.223.191:8080
+
+Request 89: success
+
+Sending request 90 to http://34.52.223.191:8080
+
+Request 90: success
+
+Sending request 91 to http://34.52.223.191:8080
+
+Request 91: success
+
+Sending request 92 to http://34.52.223.191:8080
+
+Request 92: success
+
+Sending request 93 to http://34.52.223.191:8080
+
+Request 93: success
+
+Sending request 94 to http://34.52.223.191:8080
+
+Request 94: success
+
+Sending request 95 to http://34.52.223.191:8080
+
+Request 95: success
+
+Sending request 96 to http://34.52.223.191:8080
+
+Request 96: success
+
+Sending request 97 to http://34.52.223.191:8080
+
+Request 97: success
+
+Sending request 98 to http://34.52.223.191:8080
+
+Request 98: success
+
+Sending request 99 to http://34.52.223.191:8080
+
+Request 99: success
+
+Consistency Results: 0 misses out of 100 attempts.
