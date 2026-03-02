@@ -2,7 +2,7 @@ const {Datastore} = require("@google-cloud/datastore");
 const express = require("express");
 const app = express();
 const datastore = new Datastore({
-    projectId: 'database' // I accidently used database as the ID, not (default)
+    projectId: 'cs498lab5'
 });
 
 app.use(express.json());
